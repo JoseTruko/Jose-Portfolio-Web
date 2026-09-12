@@ -2,9 +2,9 @@ import React from 'react'
 import styles from './ProjectsStyles.module.css'
 //Import for projects
 import cabañas from '../../assets/CabañasWeb.png';
-import ticosta from '../../assets/TicostaWeb.png';
-import lumina from '../../assets/LuminaApp.png';
-import alegria from '../../assets/AlegriaWeb.png';
+import pimenta from '../../assets/pimenta-studio.png';
+import guanatickets from '../../assets/guanatickets.png';
+import rinconrealty from '../../assets/rinconrealty.png';
 
 import jornadas from '../../assets/jornadas.jpg';
 import game from '../../assets/GameSpace.png';
@@ -19,21 +19,21 @@ function Projects() {
             <h1 className='sectionTitle'>Proyectos</h1>
             <div className={styles.projectsContainer}>
 
-                <ProjectCard src={cabañas} link="https://xn--cabaasdonramiro-1qb.com/"
+                <ProjectCard src={pimenta} link="https://www.pimenta.studio/"
+                h3="Pimenta Studio"
+                p="Web para empresa"/>
+
+                <ProjectCard src={guanatickets} link="https://www.guanacastetickets.com/"
+                h3="Guanacaste Tickets"
+                p="Web de tickets para turismo"/>
+
+                <ProjectCard src={rinconrealty} link="https://www.rinconrealtycr.com/"
+                h3="Rincon Realty"
+                p="Web para bienes raíces"/>
+
+                <ProjectCard src={cabañas} link="https://www.cabanasdonramiro.com/"
                 h3="Cabañas Don Ramiro"
-                p="Web para hotel / wordpress"/>
-
-                <ProjectCard src={ticosta} link="https://ticostatravels.com/"
-                h3="Ticosta Travels"
-                p="Web para turismo / wordpress"/>
-
-                <ProjectCard src={lumina} link="https://github.com/JoseTruko/LuminaResort.git"
-                h3="Lumina Resort"
-                p="App hotelera / Laravel"/>
-
-                <ProjectCard src={alegria} link="https://github.com/JoseTruko/RecipeDepot.git"
-                h3="Alegría al cocinar"
-                p="Web de recetas / Vue.js"/>
+                p="Web para hotel / wordpress"/>                                                                                                                                                                                
 
             </div>
             <hr />
