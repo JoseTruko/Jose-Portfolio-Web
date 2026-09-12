@@ -39,7 +39,7 @@ function Projects() {
             <hr />
             <div className={styles.projectsContainer}>
 
-                <ProjectCard src={jornadas} link=""
+                <ProjectCard src={jornadas} link="https://drive.google.com/drive/folders/1FVMlc94AnJnD8cQ0BX9W8Ip9vvIq4eMv?usp=sharing"
                 h3="Jornadas de Investigación"
                 p="Identidad gráfica UCR / Adobe Suite"/>
 
